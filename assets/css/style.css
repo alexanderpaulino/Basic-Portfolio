@@ -206,13 +206,13 @@ hr {
 #roboticsButton, #cloudButton, #droneButton {
 	height: 150px;
 	width: 150px;
-	margin: 10px 10px 5px 35px;
+	margin: 0px 0px 0px 0px;
 }
 
 .container {
 	float: left;
 	position: relative;
-	margin: 0px 0px 0px 0px;
+	margin: 10px 10px 5px 35px;;
 }
 
 .buttonLink {
@@ -220,7 +220,6 @@ hr {
 	z-index: 1;
 	width: 150px;
 	bottom: 22px;
-	right: 10px;
 	text-align: center;
 	line-height: 25px;
 	color: white;
