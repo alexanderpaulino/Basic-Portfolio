@@ -61,6 +61,7 @@ hr {
 	border-bottom-style: solid;
 	border-bottom-color: #4aaaa5;
 	border-bottom-width: 8px;
+	overflow: auto;
 }
 
 .aboutMeBox {
