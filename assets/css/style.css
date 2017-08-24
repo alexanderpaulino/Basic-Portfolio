@@ -1,19 +1,16 @@
 html, body {
 	background-color: black;
 	text-align: center;
-	color: #ab9da3;
+	color: #777777;
 	width: 1280px;
 	margin: auto;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	overflow: auto;
 }
 
 a:link, a:visited, a:active {
-	color: #ab9da3;
 	text-decoration: none;
-}
-
-a:hover {
-	font-weight: bold;
+	color: #ab9da3;
 }
 
 hr {
@@ -28,6 +25,9 @@ hr {
 	height: 85px;
 	width: 100%;
 	position: relative;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	border-bottom-width: 2px;
 	margin-bottom: 0;
 }
 
@@ -38,43 +38,40 @@ hr {
 	color: white;
 	padding: 25px 20px 25px 20px;
 	position: absolute;
-	left: 120px;
+	left: 100px;
 	bottom: 0px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .nav {
-	background-color: white;
 	padding: 15px 15px 15px 15px;
 	position: absolute;
-	right: 200px;
+	right: 150px;
 	bottom: 18px;
 	word-spacing: 10px;
 	font-size: 18px;
 }
 
-.centerSection {
+#centerSection {
 	background-image: url("../images/concrete-texture.png");
 	background-repeat: repeat;
-	height: 525px;
+	min-height: 535px;
 	width: 1280px;
+	padding-bottom: 9px;
 	position: relative;
-	border-top-style: solid;
-	border-top-color: #cccccc;
-	border-top-width: 2px;
 	border-bottom-style: solid;
 	border-bottom-color: #4aaaa5;
-	border-bottom-width: 6px;
+	border-bottom-width: 8px;
 }
 
 .aboutMeBox {
-	background-color: white;
+	background-color: #ffffff;
 	text-align: left;
 	position: absolute;
-	width: 550px;
-	left: 120px;
+	width: 610px;
+	left: 100px;
 	top: 40px;
-	padding: 20px 30px 20px 30px;
+	padding: 10px 40px 20px 40px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #cccccc;
@@ -83,24 +80,25 @@ hr {
 }
 
 .connectBox {
-	background-color: white;
+	background-color: #ffffff;
 	color: #4aaaa5;
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 18px;
 	position: absolute;
+	width: 270px;
 	padding: 20px 10px 15px 10px;
-	right: 255px;
+	right: 141px;
 	top: 40px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #cccccc;
 }
 
-.facebookButton, .linkedinButton, .githubButton, .twitterButton {
+#facebookButton, #linkedinButton, #githubButton, #twitterButton {
 	height: 55px;
 	width: 55px;
-	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
 }
 
 .aboutMe {
@@ -108,23 +106,124 @@ hr {
 	font-size: 30px;
 	color: #4aaaa5;
 	font-weight: bold;
-	padding: 18px 18px 0px 18px;
+	padding: 18px 18px 0px 10px;
 }
 
 .profilePhoto {
 	float: left;
-	height: 150px;
+	height: 170px;
 	width: 200px;
-	padding: 20px 10px 10px 0px;
+	padding: 10px 25px 25px 0px;
 }
 
 .footer {
 	clear: both;
 	height: 50px;
-	width: 100%;
 	background-color: #777;
 	padding: 40px 0px 0px 0px;
 	color: #ebebeb;
 	font-size: 14px;
 	overflow: auto;
 }
+
+.contactBox {
+	background-color: #ffffff;
+	text-align: left;
+	position: absolute;
+	width: 610px;
+	left: 100px;
+	top: 40px;
+	padding: 10px 40px 20px 40px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	overflow: auto;
+	line-height: 2;	
+}
+
+.contact {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	color: #4aaaa5;
+	font-weight: bold;
+	padding: 18px 18px 0px 18px;
+}
+
+.resizedNameBox, .resizedEmailBox {
+	width: 530px;
+	height: 20px;
+	padding-left: 10px;
+}
+
+.textarea {
+	width: 530px;
+	height: 145px;
+	padding-left: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	resize: none;
+}
+
+::-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+::-moz-placeholder {
+    color: #cccccc;
+}
+
+::-ms-placeholder {
+    color: #cccccc;
+}
+
+::placeholder {
+    color: #cccccc;
+}
+
+.portfolioBox {
+	background-color: #ffffff;
+	text-align: left;
+	position: absolute;
+	width: 610px;
+	left: 100px;
+	top: 40px;
+	padding: 10px 40px 20px 40px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	overflow: auto;
+	line-height: 2;	
+}
+
+.portfolio {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	color: #4aaaa5;
+	font-weight: bold;
+	margin: 18px 18px 0px 18px;
+}
+
+#hologramButton, #networkingButton, #iosrpgButton, 
+#roboticsButton, #cloudButton, #droneButton {
+	height: 150px;
+	width: 150px;
+	margin: 10px 10px 5px 35px;
+}
+
+.container {
+	float: left;
+	position: relative;
+}
+
+.buttonLink {
+	position: absolute;
+	z-index: 1;
+	width: 150px;
+	bottom: 22px;
+	right: 10px;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+	background-color: #4aaaa5;
+	padding: 6px 0px 6px 0px;
+}
+
