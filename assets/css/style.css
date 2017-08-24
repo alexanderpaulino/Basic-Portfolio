@@ -212,6 +212,7 @@ hr {
 .container {
 	float: left;
 	position: relative;
+	margin: 0px 0px 0px 0px;
 }
 
 .buttonLink {
